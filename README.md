@@ -16,3 +16,11 @@ This project uses basic AI techniques (OCR + Pattern Recognition) to extract str
 ## Setup
 ```bash
 pip install -r requirements.txt
+
+
+## Advanced Usage
+
+To use the Hugging Face model (more powerful AI extraction):
+
+```bash
+python main.py
