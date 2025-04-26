@@ -24,3 +24,18 @@ To use the Hugging Face model (more powerful AI extraction):
 
 ```bash
 python main.py
+
+
+---
+
+### 🌟 Extra 
+
+ **future plan** :
+
+
+## Future Development Roadmap
+- Fine-tune a medical NER model (e.g., BioClinicalBERT) on pharmacy scripts.
+- Add support for handwritten OCR via Google Vision or Azure OCR.
+- Deploy the model as an API using FastAPI.
+- Add a simple Streamlit front-end for uploading prescriptions online.
+
