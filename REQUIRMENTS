@@ -1,1 +1,14 @@
+pytesseract
+Pillow
+
+
+// hugging face requirements
+
+pytesseract
+Pillow
+transformers
+torch
+
+
+
 
