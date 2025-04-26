@@ -1,14 +1,9 @@
-pytesseract
-Pillow
-
-
-// hugging face requirements
-
-pytesseract
-Pillow
+fastapi
+uvicorn
 transformers
 torch
-
-
+pytesseract
+Pillow
+python-multipart
 
 
