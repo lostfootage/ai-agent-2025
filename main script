@@ -56,3 +56,17 @@ def main():
 if __name__ == "__main__":
     main()
 
+
+# Inside main()
+
+    method = input("Choose extraction method (simple / huggingface): ").strip().lower()
+
+    if method == 'simple':
+        structured_data = extract_prescription_data(script_text)
+    elif method == 'huggingface':
+        from huggingface_model import extract_prescription_data_hf
+        structured_data = extract_prescription_data_hf(script_text)
+    else:
+        print("Invalid extraction method selected.")
+        return
+
