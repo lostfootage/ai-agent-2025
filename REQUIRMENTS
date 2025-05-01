@@ -1,3 +1,11 @@
+
+echo "# Update to trigger Azure deployment" >> README.md
+
+git add .
+git commit -m "Trigger Azure deployment"
+git push origin main
+
+
 fastapi
 uvicorn
 transformers
